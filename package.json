@@ -1,14 +1,18 @@
 {
-  "name": "ravisuhag",
-  "version": "0.1.0",
-  "description": "Ravi Suhag - InfoCard",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "ravisuhag"
-  ],
-  "author": "ravisuhag",
-  "license": "MIT"
+    "name": "ravisuhag",
+    "version": "0.1.0",
+    "description": "Ravi Suhag - InfoCard",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "ravisuhag"
+    ],
+    "author": "ravisuhag",
+    "license": "MIT",
+    "preferGlobal": true,
+    "bin": {
+        "ravi": "bin/ravisuhag.bin.js"
+    }
 }
