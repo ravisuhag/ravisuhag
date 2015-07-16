@@ -1,10 +1,18 @@
 #!/usr/bin/env node
-
-// --   use 'npm link' to test locally so that you dpnt need to reinstall over and again while building 
-
-console.log('+-+-+-+-+-+-+-+-+-+-+');
-console.log('|    Ravi Suhag     |');
-console.log('+-+-+-+-+ +-+-+-+-+-+');
+var pkg = require('./package.json'),
+	me = require('./data/me.json'),
+	rs = require('./index.js');
 
 var userArgs = process.argv.slice(2);
 var subCommand = userArgs[0];
+
+
+program
+    .version(pkg.version);
+
+program
+    .command('info')
+    .description('Ravi Suhag\'s info.')
+    .action(function() {
+        index.info();
+    });

@@ -1,18 +1,25 @@
 {
-    "name": "ravisuhag",
-    "version": "0.1.0",
-    "description": "Ravi Suhag - InfoCard",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "ravisuhag"
-    ],
-    "author": "ravisuhag",
-    "license": "MIT",
-    "preferGlobal": true,
-    "bin": {
-        "ravi": "bin/ravisuhag.bin.js"
-    }
+  "name": "ravisuhag",
+  "version": "0.1.0",
+  "description": "Ravi Suhag - InfoCard",
+  "repository": {
+    "url": "git@github.com:ravisuhag/ravisuhag.git",
+    "type": "git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ravisuhag"
+  ],
+  "author": "ravisuhag",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "ravi": "bin/ravisuhag.bin.js"
+  },
+  "dependencies": {
+    "commander": "^2.8.1"
+  }
 }

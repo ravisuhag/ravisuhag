@@ -1,0 +1,53 @@
+{
+    "name": "Ravi Suhag",
+    "email": "suhag.ravi@gmail.com",
+    "gender": "male",
+    "city": "Gurgaon",
+    "country": "India",
+    "hometown": "Jhajjar",
+    "phone1": "+919717860747",
+    "social media": {
+        "twitter": "http://twitter.com/Ravi_Suhag",
+        "github": "http://github.com/ravisuhag",
+        "facebook": "http://www.facebook.com/suhag.ravi",
+        "vimeo": "http://vimeo.com/ravisuhag",
+        "linkedin": "http://linkedin.com/in/ravisuhag",
+        "foursquare": "http://foursquare.com/ravisuhag",
+        "instagram": "http://instagr.am/ravisuhag",
+        "youtube": "http://youtube.com/ravisuhag"
+    },
+    "employed": true,
+    "favourite shows": [
+        "Silicon Valley",
+        "Game of Thrones",
+        "Mr. Robot",
+        "Walking Dead",
+        "Prison Break",
+        "Dexter",
+        "Homeland"
+    ],
+    "favourite movies": [
+        "Ironman Series",
+        "The Jackal",
+        "Spider Man Series",
+        "Matrix Series",
+        "Avatar",
+        "Transformers Series",
+        "Batman: The Dark Knight",
+        "Batman: The Dark Knight Rises",
+        "Ocean's Eleven",
+        "The Last Samurai",
+        "WALL•E",
+        "A Beautiful Mind",
+        "Inception",
+        "Troy",
+    ],
+    "blog": "http://ravisuhag.com",
+    "marial status": "Unmarried",
+    "smoker": false,
+    "alcholic": false,
+    "languages": {
+        "Hindi": "Native",
+        "English": "Fluent, both written & spoken"
+    }
+}
